@@ -1,26 +1,3 @@
-# Table Of Contents
--------------------
-* Introduction
-* Requirements
-* Installation
-* Code
-# Introduction
---------------
-In this project, I have taken an image and take the angle as input from the user and then rotate the image at the given angle in anti-clockwise direction.
-# Requirements
---------------
-This module requires the following modules:
-* OpenCV
-# Installation
---------------
-* Install Visual Studio 2019
-* Install OpenCV
-# Configuration
----------------
-To use OpenCV features in Visual Studio, we have to add additional include directories and define the path of various include directories into the properties of project in Visual Studio.
-# Code
-------
-```C++
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <iostream>
@@ -52,5 +29,3 @@ int main()
     waitKey(0);                     //to exit press escape
     return 0;
 }
-```
-In this code, I have selected a photo and printed both the original file and rotated file.
